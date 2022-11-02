@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.wrapper  {
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +36,11 @@ code {
   width: 130px;
 }
 
-.profile-wrapper > h2 {
-  font-size: 1em; 
+.profile-wrapper>h2 {
+  font-size: 1em;
+}
+
+.profile-wrapper>#twitter,
+.profile-wrapper>#slack {
+  visibility: hidden;
 }
