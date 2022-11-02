@@ -19,3 +19,23 @@ code {
   height: 80vh;
 }
 
+/* PROFILE SECTION */
+.profile-wrapper {
+  align-items: center;
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#profile_img {
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+.profile-wrapper > h2 {
+  font-size: 1em; 
+}
